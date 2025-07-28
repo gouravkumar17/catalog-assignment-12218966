@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Catalog Secret Finder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Catalog Secret Finder</h1>
+    <form id="form">
+      <label for="test1">Upload Testcase 1:</label>
+      <input type="file" id="test1" accept=".json" required />
+      <label for="test2">Upload Testcase 2:</label>
+      <input type="file" id="test2" accept=".json" required />
+      <button type="submit">Find Secrets</button>
+    </form>
+    <div id="output"></div>
+    <div id="debugBox">
+      <pre id="details"></pre>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
