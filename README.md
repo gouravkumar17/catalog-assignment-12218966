@@ -45,8 +45,8 @@ project-folder/
 1. **Clone this repository**:
 
    ```bash
-   git clone https://github.com/yourusername/secret-sharing-json.git
-   cd secret-sharing-json
+   git clone https://github.com/gouravkumar17/catalog-assignment-12218966.git
+   cd catalog-assignment-12218966
 
 Open index.html in any browser.
 Paste or upload your JSON-formatted shares.
